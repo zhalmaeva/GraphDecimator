@@ -18,10 +18,8 @@ set(LINKED_FILES
     mainwindow.ui
     qcustomplot.cpp
     qcustomplot.h
-    func.cpp
-    func.h
     datadecimator.h
-    point.h
+    datadecimator.cpp
 )
 
 find_package(Qt5 COMPONENTS Widgets PrintSupport REQUIRED)
